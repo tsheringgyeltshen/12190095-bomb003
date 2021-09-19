@@ -1,0 +1,7 @@
+1. Set up break point:
+    (gdb) b phase_1
+    Breakpoint 1 at 0x400ef0
+    (gdb) r
+    Starting program: /home/chh/bomb8/bomb 
+    Welcome to my fiendish little bomb. You have 6 phases with
+    which to blow yourself up. Have a nice day!
