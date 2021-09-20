@@ -53,7 +53,7 @@ End of assembler dump.
 //Looking at %eax, we see it is = 1, so it will call the bomb.
 
 (gdb) i r
-rax            0x1                 1                                                   //required is 0 and here it is 1 and bomb will explode.
+rax            0x1                 1                                                   //%eax required is 0 and here it is 1 and bomb will explode.
 rbx            0x4021e0            4202976
 rcx            0x2                 2
 rdx            0x1                 1
